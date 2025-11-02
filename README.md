@@ -1,17 +1,17 @@
-# ✅ To Do List App – Jetpack Compose + Room + SharedPreferences
+#  To Do List App – Jetpack Compose + Room + SharedPreferences
 
 Implementação da camada de persistência para o App To Do List (atividade Soluções Mobile - UNISATC).
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 Implementar a persistência dos dados no app de lista de tarefas, utilizando:
 - **Room Database (SQLite)** para armazenar tarefas
 - **SharedPreferences** para configurações (ex: tema escuro)
 
 ---
 
-## 📁 Estrutura
+##  Estrutura
 ```
 data/
  ├── model/
@@ -24,7 +24,7 @@ data/
 
 ---
 
-## 🗃️ Dependências (build.gradle)
+##  Dependências (build.gradle)
 ```groovy
 plugins {
     id 'com.android.application'
@@ -42,7 +42,7 @@ dependencies {
 
 ---
 
-## ⚙️ Passos para usar
+##  Passos para usar
 1️⃣ Copie a pasta `data/` para dentro do projeto base clonado de:
    ```
    https://github.com/thyerrimezzari/BaseToDoListCompose
@@ -53,7 +53,7 @@ dependencies {
 
 ---
 
-## 🧩 Uso básico
+##  Uso básico
 ```kotlin
 val db = AppDatabase.getDatabase(context)
 val dao = db.taskDao()
@@ -67,6 +67,6 @@ lifecycleScope.launch {
 
 ---
 
-## 📘 Créditos
+##  Créditos
 Baseado nas aulas do Prof. Thyerri Mezzari (UNISATC)
 Implementação: [Vitória do Amaral Viana]
