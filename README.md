@@ -69,4 +69,4 @@ lifecycleScope.launch {
 
 ## 📘 Créditos
 Baseado nas aulas do Prof. Thyerri Mezzari (UNISATC)
-Implementação: [Seu Nome]
+Implementação: [Vitória do Amaral Viana]
